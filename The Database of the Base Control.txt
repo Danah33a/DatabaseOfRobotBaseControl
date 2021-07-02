@@ -1,0 +1,20 @@
+creat database myDBbaseControl 
+
+Use myDBbaseControl
+
+creat table ControlDirection( 
+
+Forward varchar(1), 
+
+Left varchar(1),
+ 
+Right varchar(1),
+ 
+Stop varchar(1), 
+
+Backward varchar(1)
+); 
+
+select Forward, Left, Right, Stop, Backward
+
+From ControlDirection;
